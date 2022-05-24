@@ -1,0 +1,57 @@
+body{
+    padding-top: 500px;
+    text-align:center;
+}
+#welcome{
+    position:absolute;
+    top:0;
+        left:0;
+        right:0;
+    bottom:0;
+    height:500px;
+    width:100%;
+    background: linear-gradient( sandybrown 0%,rosybrown 100%);
+    display:table;
+    z-index: 9;
+}
+.parallax-inner{
+    display:table-cell;
+}
+.profile{
+    border-radius: 100%;
+    width: 200px;
+    margin-bottom: 50px;
+}
+.menu{
+    list-style: none;
+    font-family: sans-serif;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 10;
+}
+.links{
+    float: left;
+    padding-left: 9px ;
+    padding-right: 9px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color:brown;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.links:hover{
+    background-color: chocolate;
+    color: antiquewhite;
+}
+#name{
+    font-size: 30px;
+    font-family: 'Cinzel Decorative', cursive;
+}
+.line{
+height:5px ;
+width: 80px;
+background-color: #000;
+margin: 8px auto;
+}
